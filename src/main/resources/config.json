@@ -1,0 +1,25 @@
+{
+  "symbolsToBacktest": [
+    "BTCUSDT",
+    "ETHUSDT",
+    "BNBUSDT"
+  ],
+  "buyCondition": {
+    "rsiTimeFrame": 14,
+    "rsiThreshold": 30,
+    "adxTimeFrame": 14,
+    "adxThreshold": 25,
+    "psarStep": 0.02,
+    "psarMax": 0.2,
+    "emaTimeFrame": 20
+  },
+  "sellCondition": {
+    "rsiTimeFrame": 14,
+    "rsiThreshold": 70,
+    "adxTimeFrame": 14,
+    "adxThreshold": 25,
+    "psarStep": 0.02,
+    "psarMax": 0.2,
+    "emaTimeFrame": 20
+  }
+}
